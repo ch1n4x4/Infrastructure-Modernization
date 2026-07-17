@@ -14,7 +14,7 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region = "eu-west-1"
+  region = var.aws_region
 }
 
 # Create s3 with versioning enabled
