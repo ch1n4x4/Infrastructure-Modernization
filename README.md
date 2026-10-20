@@ -6,17 +6,6 @@
 ![License](https://img.shields.io/badge/License-MIT-lightgrey?style=flat-square)
 
 > **Executive Summary:** VaultBridge Financial Technologies now has a secure, automated, and repeatable cloud infrastructure foundation in AWS (`eu-west-1`), where before it faced fundamental challenges in managing and scaling its cloud workloads. During this modernization effort, we deployed Infrastructure as Code (IaC) using Terraform, established critical architectural patterns including remote state management (`Amazon S3` + `DynamoDB`) and logically separated file structures (`bootstrap/` and `infra/`), implemented variable-driven configurations, and enforced a strict least-privilege security model. This moves the organization away from fragile manual configuration into a modern, automated infrastructure posture, laying the groundwork for future integrations like CI/CD pipelines, autoscaling groups, and container orchestration.
-
-| Field | Detail |
-| :--- | :--- |
-| **Programme** | AMDARI Cloud Security Internship Programme |
-| **Analyst** | Chinaza Nnamani |
-| **Client** | VaultBridge Financial Technologies |
-| **Engagement** | Provisioning of a representative three-tier cloud environment from scratch using Terraform |
-| **Primary Region** | `eu-west-1` (Europe – Ireland) |
-| **Frameworks** | NIST Cybersecurity Framework, PCI DSS, SOC 2 Type II, ISO 27001 |
-| **Git Repo** | `Terraform-Project` |
-
 ---
 
 ## Table of Contents
